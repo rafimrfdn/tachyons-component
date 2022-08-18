@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>card tacyons</title>
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.10.2/dist/cdn.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+    />
+  </head>
+  <body class="sans-serif">
+    <div class="center mv3 w-90">
+      <div class="flex justify-between">
+        <span class="b">Technology</span>
+        <span class="i">more</span>
+      </div>
+      <hr />
+      <!-- single card vertical -->
+      <h2>Single Card Vertical</h2>
+      <div class="cf w-30 bg-red br3 ma">
+        <div class="db">
+          <img
+            class="w-100 mw7 w5 br3 br--top"
+            src="http://tachyons.io/img/cat-720.jpg"
+          />
+        </div>
+        <div class="ml3 flex flex-column pb3">
+          <h3>Kucing</h3>
+          <p>Description seekor kucing</p>
+          <small>Pada <time>12:00</time></small>
+          <span>by Rafi</span>
+        </div>
+      </div>
+      <br />
+      <!-- multiple card vertical -->
+      <h2>Multiple Card Vertical</h2>
+      <div class="cf flex justify-between">
+        <div class="fl w-third flex pa3">
+          <div class="w-100 bg-red">
+            <div class="db">
+              <img
+                class="w-100 mw7 w5 br--top"
+                src="http://tachyons.io/img/cat-720.jpg"
+              />
+            </div>
+            <div class="mh3 flex flex-column pb3">
+              <div>
+                <h3>Nama kucing</h3>
+                <p>
+                  Description seekor kucing yang sangat panjang seperti kereta
+                  api tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+                </p>
+              </div>
+              <div class="flex flex-row justify-between">
+                <div class="flex flex-row flex-start">
+                  <img
+                    src="http://tachyons.io/img/logo.jpg"
+                    class="br-100 h2 w2 dib"
+                    alt="avatar"
+                  />
+                  <div class="ml2 flex flex-column">
+                    <small class="b">Rafi</small>
+                    <small
+                      >Pada <time>12:00</time> . <time>1</time> min read</small
+                    >
+                  </div>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="w-two-thirds flex justify-between flex-wrap">
+          <div class="w-50 pa3">
+            <div class="w-100 bg-red">
+              <div class="db h4 overflow-hidden">
+                <img
+                  class="w-100 mw7 w5 br--top"
+                  src="http://tachyons.io/img/cat-720.jpg"
+                />
+              </div>
+              <div class="mh3 flex flex-column pb3">
+                <div>
+                  <h3>Nama kucing</h3>
+                  <p class="dn-ns">
+                    Description seekor kucing yang sangat panjang seperti kereta
+                    api tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+                  </p>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <div class="flex flex-row flex-start">
+                    <img
+                      src="http://tachyons.io/img/logo.jpg"
+                      class="br-100 h2 w2 dib"
+                      alt="avatar"
+                    />
+                    <div class="ml2 flex flex-column">
+                      <small class="b">Rafi</small>
+                      <small
+                        >Pada <time>12:00</time> . <time>1</time> min
+                        read</small
+                      >
+                    </div>
+                  </div>
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-bookmark"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-50 pa3">
+            <div class="w-100 bg-red">
+              <div class="db h4 overflow-hidden">
+                <img
+                  class="w-100 mw7 w5 br--top"
+                  src="http://tachyons.io/img/cat-720.jpg"
+                />
+              </div>
+              <div class="mh3 flex flex-column pb3">
+                <div>
+                  <h3>Nama kucing</h3>
+                  <p class="dn-ns">
+                    Description seekor kucing yang sangat panjang seperti kereta
+                    api tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+                  </p>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <div class="flex flex-row flex-start">
+                    <img
+                      src="http://tachyons.io/img/logo.jpg"
+                      class="br-100 h2 w2 dib"
+                      alt="avatar"
+                    />
+                    <div class="ml2 flex flex-column">
+                      <small class="b">Rafi</small>
+                      <small
+                        >Pada <time>12:00</time> . <time>1</time> min
+                        read</small
+                      >
+                    </div>
+                  </div>
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-bookmark"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-50 pa3">
+            <div class="w-100 bg-red">
+              <div class="db h4 overflow-hidden">
+                <img
+                  class="w-100 mw7 w5 br--top"
+                  src="http://tachyons.io/img/cat-720.jpg"
+                />
+              </div>
+              <div class="mh3 flex flex-column pb3">
+                <div>
+                  <h3>Nama kucing</h3>
+                  <p class="dn-ns">
+                    Description seekor kucing yang sangat panjang seperti kereta
+                    api tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+                  </p>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <div class="flex flex-row flex-start">
+                    <img
+                      src="http://tachyons.io/img/logo.jpg"
+                      class="br-100 h2 w2 dib"
+                      alt="avatar"
+                    />
+                    <div class="ml2 flex flex-column">
+                      <small class="b">Rafi</small>
+                      <small
+                        >Pada <time>12:00</time> . <time>1</time> min
+                        read</small
+                      >
+                    </div>
+                  </div>
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-bookmark"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-50 pa3">
+            <div class="w-100 bg-red">
+              <div class="db h4 overflow-hidden">
+                <img
+                  class="w-100 mw7 w5 br--top"
+                  src="http://tachyons.io/img/cat-720.jpg"
+                />
+              </div>
+              <div class="mh3 flex flex-column pb3">
+                <div>
+                  <h3>Nama kucing</h3>
+                  <p class="dn-ns">
+                    Description seekor kucing yang sangat panjang seperti kereta
+                    api tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+                  </p>
+                </div>
+                <div class="flex flex-row justify-between">
+                  <div class="flex flex-row flex-start">
+                    <img
+                      src="http://tachyons.io/img/logo.jpg"
+                      class="br-100 h2 w2 dib"
+                      alt="avatar"
+                    />
+                    <div class="ml2 flex flex-column">
+                      <small class="b">Rafi</small>
+                      <small
+                        >Pada <time>12:00</time> . <time>1</time> min
+                        read</small
+                      >
+                    </div>
+                  </div>
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-bookmark"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <!-- card horizontal -->
+      <h2>Card Horizontal</h2>
+      <div class="flex flex-wrap flex-row justify-between">
+        <div class="bg-green h5 mw6 flex flex-row justify-between br3 ma2">
+          <div class="w5 overflow-hidden">
+            <img
+              class="mw7 h5 br--left br3"
+              src="http://tachyons.io/img/cat-720.jpg"
+            />
+          </div>
+          <div class="ph3 pb3 mw5 flex flex-column justify-between">
+            <div>
+              <h3>Nama kucing yang panganaa aaaangggg sekaliiiiiiiii</h3>
+              <p>
+                Description seekor kucing yang sangat panjang seperti kereta api
+                tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+              </p>
+            </div>
+            <div class="flex flex-row justify-between">
+              <div class="flex flex-row flex-start">
+                <img
+                  src="http://tachyons.io/img/logo.jpg"
+                  class="br-100 h2 w2 dib"
+                  alt="avatar"
+                />
+                <div class="ml2 flex flex-column">
+                  <small class="b">Rafi</small>
+                  <small>Pada <time>12:00</time></small>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-green h5 mw6 flex flex-row justify-between br3 ma2">
+          <div class="w5 overflow-hidden">
+            <img
+              class="mw7 h5 br--left br3"
+              src="http://tachyons.io/img/cat-720.jpg"
+            />
+          </div>
+          <div class="ph3 pb3 mw5 flex flex-column justify-between">
+            <div>
+              <h3>Kucing</h3>
+              <p>Description seekor kucing yang sedang tidur</p>
+            </div>
+            <div class="flex flex-row justify-between">
+              <div class="flex flex-row flex-start">
+                <img
+                  src="http://tachyons.io/img/logo.jpg"
+                  class="br-100 h2 w2 dib"
+                  alt="avatar"
+                />
+                <div class="ml2 flex flex-column">
+                  <small class="b">Rafi</small>
+                  <small>Pada <time>12:00</time></small>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured -->
+      <h2>Featured</h2>
+
+      <div class="cf flex justify-between">
+        <div class="fl w-50 flex pa3 ph0">
+          <div class="w-100 relative">
+            <div class="db h-100">
+              <img
+                class="w-100 h-100 mw7 w5 br--top"
+                src="http://tachyons.io/img/cat-720.jpg"
+              />
+            </div>
+            <div class="bottom-0 absolute pa3 flex flex-column white">
+              <div>
+                <h3>Nama kucing</h3>
+                <p>
+                  Description seekor kucing yang sangat panjang seperti kereta
+                  api tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+                </p>
+              </div>
+              <div class="flex flex-row justify-between">
+                <div class="flex flex-row flex-start">
+                  <img
+                    src="http://tachyons.io/img/logo.jpg"
+                    class="br-100 h2 w2 dib"
+                    alt="avatar"
+                  />
+                  <div class="ml2 flex flex-column">
+                    <small class="b">Rafi</small>
+                    <small
+                      >Pada <time>12:00</time> . <time>1</time> min read</small
+                    >
+                  </div>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-bookmark"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="fl w-50 flex">
+          <div class="pa3 flex flex-column justify-between">
+            <div class="w-100 d flex flex-row">
+              <div class="w-50 h4 overflow-hidden">
+                <img
+                  class="w-100 mw7 w5 br--top"
+                  src="http://tachyons.io/img/cat-720.jpg"
+                />
+              </div>
+              <div class="w-50 mh3 pb3">
+                <div class="flex flex-column">
+                  <div>
+                    <h3>Nama kucing</h3>
+                    <p class="dn-ns">
+                      Description seekor kucing yang sangat panjang seperti
+                      kereta api tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+                    </p>
+                  </div>
+                  <div class="flex flex-row justify-between">
+                    <div class="flex flex-row flex-start">
+                      <img
+                        src="http://tachyons.io/img/logo.jpg"
+                        class="br-100 h2 w2 dib"
+                        alt="avatar"
+                      />
+                      <div class="ml2 flex flex-column">
+                        <small class="b">Rafi</small>
+                        <small
+                          >Pada <time>12:00</time> . <time>1</time> min
+                          read</small
+                        >
+                      </div>
+                    </div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-bookmark"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100 d flex flex-row">
+              <div class="w-50 h4 overflow-hidden">
+                <img
+                  class="w-100 mw7 w5 br--top"
+                  src="http://tachyons.io/img/cat-720.jpg"
+                />
+              </div>
+              <div class="w-50 mh3 pb3">
+                <div class="flex flex-column">
+                  <div>
+                    <h3>Nama kucing</h3>
+                    <p class="dn-ns">
+                      Description seekor kucing yang sangat panjang seperti
+                      kereta api tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+                    </p>
+                  </div>
+                  <div class="flex flex-row justify-between">
+                    <div class="flex flex-row flex-start">
+                      <img
+                        src="http://tachyons.io/img/logo.jpg"
+                        class="br-100 h2 w2 dib"
+                        alt="avatar"
+                      />
+                      <div class="ml2 flex flex-column">
+                        <small class="b">Rafi</small>
+                        <small
+                          >Pada <time>12:00</time> . <time>1</time> min
+                          read</small
+                        >
+                      </div>
+                    </div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-bookmark"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-100 d flex flex-row">
+              <div class="w-50 h4 overflow-hidden">
+                <img
+                  class="w-100 mw7 w5 br--top"
+                  src="http://tachyons.io/img/cat-720.jpg"
+                />
+              </div>
+              <div class="w-50 mh3 pb3">
+                <div class="flex flex-column">
+                  <div>
+                    <h3>Nama kucing</h3>
+                    <p class="dn-ns">
+                      Description seekor kucing yang sangat panjang seperti
+                      kereta api tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+                    </p>
+                  </div>
+                  <div class="flex flex-row justify-between">
+                    <div class="flex flex-row flex-start">
+                      <img
+                        src="http://tachyons.io/img/logo.jpg"
+                        class="br-100 h2 w2 dib"
+                        alt="avatar"
+                      />
+                      <div class="ml2 flex flex-column">
+                        <small class="b">Rafi</small>
+                        <small
+                          >Pada <time>12:00</time> . <time>1</time> min
+                          read</small
+                        >
+                      </div>
+                    </div>
+                    <div>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        fill="currentColor"
+                        class="bi bi-bookmark"
+                        viewBox="0 0 16 16"
+                      >
+                        <path
+                          d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                        />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- List  -->
+      <h2>Latest</h2>
+      <div class="flex">
+        <div class="w-75">
+        <div class="d flex flex-row mb3">
+          <div class="w-50 h7 overflow-hidden">
+            <img
+              class="w-100 mw7 w5 br--top"
+              src="http://tachyons.io/img/cat-720.jpg"
+            />
+          </div>
+          <div class="w-50 mh3 pb3 flex flex-column justify-around">
+            <div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                  />
+                </svg>
+              </div>
+              <h3 class="f2">Nama kucing</h3>
+              <p class="f5 gray">
+                Description seekor kucing yang sangat panjang seperti kereta api
+                tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+              </p>
+            </div>
+            <div class="flex flex-row flex-start">
+              <img
+                src="http://tachyons.io/img/logo.jpg"
+                class="br-100 h2 w2 dib"
+                alt="avatar"
+              />
+              <div class="gray ml2 flex flex-column">
+                <small class="b">Rafi</small>
+                <small>Pada <time>12:00</time> . <time>1</time> min read</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" d flex flex-row mb3">
+          <div class="w-50 h7 overflow-hidden">
+            <img
+              class="w-100 mw7 w5 br--top"
+              src="http://tachyons.io/img/cat-720.jpg"
+            />
+          </div>
+          <div class="w-50 mh3 pb3 flex flex-column justify-around">
+            <div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-bookmark"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                  />
+                </svg>
+              </div>
+              <h3 class="f2">Nama kucing</h3>
+              <p class="f5 gray">
+                Description seekor kucing yang sangat panjang seperti kereta api
+                tuuuuttttt tuuuuuttt tttttuuuuuuuppppp
+              </p>
+            </div>
+            <div class="flex flex-row flex-start">
+              <img
+                src="http://tachyons.io/img/logo.jpg"
+                class="br-100 h2 w2 dib"
+                alt="avatar"
+              />
+              <div class="gray ml2 flex flex-column">
+                <small class="b">Rafi</small>
+                <small>Pada <time>12:00</time> . <time>1</time> min read</small>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+        <div class="w-25 h7 bg-red"></div>
+      </div>
+    </div>
+  </body>
+</html>
